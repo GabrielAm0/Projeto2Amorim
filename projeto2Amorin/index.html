@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financiar Bens</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <div class="section" style="margin-left: 40%; margin-top: 10%; ">
+
+        <div class="title"> Financiamento </div>
+
+        <div class="input">
+             <input placeholder="Nome:" type="text" id='nome' required="required" style="margin-bottom: 2%;">
+        </div>
+
+        <div class="input">
+          <input placeholder="Renda mensal:" type="text" id='RendaMensal' required="required" style="margin-bottom: 2%;">
+      </div>
+
+        <div class="input">
+            <input  placeholder="Valor do financiamento:"  type="text" id='Financiamento'required="required" style="margin-bottom: 2%;">
+        </div>
+
+        <div class="input">
+          <input  placeholder="Parcelas:"  type="number" id='Parcelas'required="required" style="margin-bottom: 2%;">
+      </div>
+
+        <div class="input">
+          <input  placeholder="Taxa de juros:"  type="text" id='jurosBanco'required="required" style="margin-bottom: 2%;">
+      </div>
+
+        <button id='calcular'>Confirmar</button>
+
+        <div class="result" id='resultado'></div>
+
+
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
